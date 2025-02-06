@@ -44,21 +44,21 @@ export const CountdownTimer = () => {
 
   const [audioInitialized, setAudioInitialized] = useState(false);
   const [ambientMusic] = useState(() => {
-    const audio = new Audio('/assets/music-chill.mp3');
+    const audio = new Audio('/music-chill.mp3');
     audio.loop = true;
     audio.volume = 0.2;
     return audio;
   });
 
   const [backgroundMusic] = useState(() => {
-    const audio = new Audio('/assets/music.mp3');
+    const audio = new Audio('/music.mp3');
     audio.loop = true;
     audio.volume = 0.7;
     return audio;
   });
 
   const [popSound] = useState(() => {
-    const audio = new Audio('/assets/pop-balloon.mp3');
+    const audio = new Audio('/pop-balloon.mp3');
     audio.volume = 0.3;
     return audio;
   });

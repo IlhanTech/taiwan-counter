@@ -105,7 +105,7 @@ const SecondCountdownDisplay = () => {
         className="mb-8"
       >
         <img 
-          src="/assets/chill-guy.png" 
+          src="/chill-guy.png" 
           alt="Chill Guy" 
           className="mx-auto w-400 h-400 object-contain"
         />
